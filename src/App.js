@@ -1,6 +1,6 @@
 import React from 'react';
 import Calculator from './components/Calculator';
-import Quote from "./components/Quote";
+import Quote from './components/Quote';
 
 
 // eslint-disable-next-line react/prefer-stateless-function

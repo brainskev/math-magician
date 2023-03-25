@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect } from 'react';
 
 const Quote = () => {
   const [quote, setQuote] = useState({});
@@ -11,12 +11,12 @@ const Quote = () => {
 
       try {
         const response = await fetch(
-          "https://api.api-ninjas.com/v1/quotes?category=happiness",
+          'https://api.api-ninjas.com/v1/quotes?category=happiness',
           {
             headers: {
-              "X-Api-Key": "arjAxhHIzmx1T4/2+TN60A==qHFdGV86rvZbZX1a",
+              'X-Api-Key': 'arjAxhHIzmx1T4/2+TN60A==qHFdGV86rvZbZX1a',
             },
-          }
+          },
         );
         const data = await response.json();
         setQuote(data[0]);
