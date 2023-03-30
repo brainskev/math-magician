@@ -91,7 +91,7 @@ After you're finished please remove all the comments and instructions!
 
 ## 🚀 Live Demo <a name="live-demo"></a>
 
-- [Live Demo will be available soon]()
+- [Live Demo](https://math-calculator-tf19.onrender.com)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
